@@ -12,7 +12,7 @@ def favicon():
 
 @app.route("/")
 def index():
-    return jsonify({"page": "ok"})
+    return jsonify({"api": "ok"})
 
 
 if __name__ == '__main__':
