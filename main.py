@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, jsonify
+from flask import Flask, send_from_directory, jsonify, render_template
 import os
 
 app = Flask(__name__)
@@ -12,6 +12,7 @@ def favicon():
 
 @app.route("/")
 def index():
+    # return render_template("index.html")
     return jsonify({"api": "ok"})
 
 
