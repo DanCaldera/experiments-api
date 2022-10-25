@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, send_from_directory, render_template
 import os
 
 app = Flask(__name__)
@@ -10,9 +10,10 @@ def favicon():
                                'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 
-@app.route('/')
+@app.route("/")
+@app.route("/index")
 def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
