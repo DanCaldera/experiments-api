@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b278d5-2ddb-4340-b648-3562ae484987" name="Changes" comment="updated main.py">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f37faff-fc87-41e1-9c56-f9fbc3d7d68d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1f37faff-fc87-41e1-9c56-f9fbc3d7d68d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,7 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -97,7 +102,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666720470906</updated>
-      <workItem from="1666720472168" duration="6550000" />
+      <workItem from="1666720472168" duration="10388000" />
+      <workItem from="1666759563455" duration="139000" />
+      <workItem from="1666884800925" duration="24000" />
+      <workItem from="1666911178935" duration="441000" />
+      <workItem from="1667234563434" duration="3627000" />
+      <workItem from="1667500292747" duration="537000" />
+      <workItem from="1667601404574" duration="1000" />
+      <workItem from="1667601415575" duration="180000" />
+      <workItem from="1667845100603" duration="10000" />
+      <workItem from="1667845121801" duration="7000" />
+      <workItem from="1667891604492" duration="134000" />
+      <workItem from="1667971714726" duration="2473000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE: Added favicon.ico">
       <created>1666724025547</created>
