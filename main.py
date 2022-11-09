@@ -29,30 +29,27 @@ def upload_file():
             return redirect('/')
 
         file = request.files['file']
-        new_filename = str(uuid4()) + '.mp3'
+        new_filename = 'converted_audios/' + str(uuid4()) + '.mp3'
 
         if file.filename == '':
             print('No selected file')
             return redirect('/')
         elif file and file.filename.rsplit('.', 1)[1].lower() == 'mp3':
             # If is mp3 no need to convert
-            # file.save(new_filename)
-            # return send_file(new_filename, as_attachment=True)
-            return jsonify({"status": "ok", "filename": new_filename})
+            file.save(new_filename)
+            return send_file(new_filename, as_attachment=True)
         elif file and 'audio' in file.mimetype:
             try:
                 song = AudioSegment.from_file(file)
                 # Save Converted File
-                # song.export(new_filename, format="mp3")
-                # return send_file(new_filename, as_attachment=True)
-                return jsonify({"status": "ok", "filename": new_filename})
+                song.export(new_filename, format="mp3")
+                return send_file(new_filename, as_attachment=True)
             except Exception as e:
                 print(e)
                 # Save Original File
                 # file.save(new_filename)
                 # Return File
-                # return send_file(new_filename, as_attachment=True)
-                return jsonify({"status": "ok", "filename": new_filename})
+                return send_file(new_filename, as_attachment=True)
         else:
             print('File type not allowed')
             return redirect('/audio')
