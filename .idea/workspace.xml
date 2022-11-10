@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b278d5-2ddb-4340-b648-3562ae484987" name="Changes" comment="updated main.py">
-      <change afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+    <list default="true" id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Updated info files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667976515135</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated info files">
+      <created>1668071452751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668071452751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +205,8 @@
     <MESSAGE value="UPDATE: Added favicon.ico" />
     <MESSAGE value="Added main index.html" />
     <MESSAGE value="updated main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated main.py" />
+    <MESSAGE value="Updated info files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated info files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_api$flask_api.coverage" NAME="flask-api Coverage Results" MODIFIED="1666726802661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
