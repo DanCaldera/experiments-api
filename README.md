@@ -2,8 +2,10 @@
 title: Flask
 description: A popular minimal server framework for Python.
 tags:
-  - python
-  - flask
+
+- python
+- flask
+
 ---
 
 # Python Flask Example
@@ -21,3 +23,8 @@ This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a
 
 - Install Python requirements `pip install -r requirements.txt`
 - Start the server for development `python3 main.py`
+
+## 📝 Notes
+
+[Main Example Layout](https://flask.palletsprojects.com/en/2.2.x/tutorial/layout/)
+

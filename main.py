@@ -56,8 +56,8 @@ def upload_file():
     return '''
     <!doctype html>
     <body style="background-color:black;">
-        <title">Audio Conversor (Drop)</title>
-        <h1 style="color:white;">Audio Conversor</h1>
+        <title">MP3 Audio Conversor</title>
+        <h1 style="color:white;">MP3 Audio Conversor</h1>
         <form method=post enctype=multipart/form-data>
         <input style="color:white;" type=file name=file>
         <input type=submit value=Upload>
@@ -67,4 +67,7 @@ def upload_file():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=5000), host='0.0.0.0')
+    # To run in server
+    # app.run(debug=True, port=os.getenv("PORT", default=5000), host='0.0.0.0')
+    # To run in local
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
