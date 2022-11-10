@@ -155,5 +155,9 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 
+# Ignored Files
+converted_audios
+config.py
+
 
 # End of https://www.toptal.com/developers/gitignore/api/python
