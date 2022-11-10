@@ -28,3 +28,4 @@ This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a
 
 [Main Example Layout](https://flask.palletsprojects.com/en/2.2.x/tutorial/layout/)
 
+pip install -e .
