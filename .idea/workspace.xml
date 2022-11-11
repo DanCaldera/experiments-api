@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Updated info files">
+    <list default="true" id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Updated base title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/audio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -142,7 +143,7 @@
       <workItem from="1667891604492" duration="134000" />
       <workItem from="1667971714726" duration="4715000" />
       <workItem from="1668064721768" duration="3820000" />
-      <workItem from="1668193817402" duration="687000" />
+      <workItem from="1668193817402" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE: Added favicon.ico">
       <created>1666724025547</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668071509896</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated base title">
+      <created>1668196985695</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668196985695</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,9 +223,11 @@
     <MESSAGE value="Added main index.html" />
     <MESSAGE value="updated main.py" />
     <MESSAGE value="Updated info files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated info files" />
+    <MESSAGE value="Updated base title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated base title" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_api$flask_api.coverage" NAME="flask-api Coverage Results" MODIFIED="1666726802661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_api$flask_dev.coverage" NAME="flask-dev Coverage Results" MODIFIED="1668198148048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_api$flask_api.coverage" NAME="flask-api Coverage Results" MODIFIED="1668197999133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
