@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Updated info files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="server" />
-                    <option name="lastUsedInstant" value="1668068911" />
+                    <option name="lastUsedInstant" value="1668072571" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -124,7 +124,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5b278d5-2ddb-4340-b648-3562ae484987" name="Changes" comment="" />
+      <changelist id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Updated info files" />
       <created>1666720470906</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -142,6 +142,7 @@
       <workItem from="1667891604492" duration="134000" />
       <workItem from="1667971714726" duration="4715000" />
       <workItem from="1668064721768" duration="3820000" />
+      <workItem from="1668193817402" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE: Added favicon.ico">
       <created>1666724025547</created>
