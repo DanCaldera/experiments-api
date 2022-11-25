@@ -48,4 +48,7 @@ def create_app(test_config=None):
     from . import audio
     app.register_blueprint(audio.bp)
 
+    from . import transcribe
+    app.register_blueprint(transcribe.bp)
+
     return app
