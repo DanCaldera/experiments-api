@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Added transcribe">
+    <list default="true" id="b98da0f2-4386-434a-82e3-745c7575a176" name="Changes" comment="Added transcribe bp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/transcribe.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/transcribe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -152,7 +154,9 @@
       <workItem from="1668199543756" duration="231000" />
       <workItem from="1668800096009" duration="556000" />
       <workItem from="1669314157392" duration="393000" />
-      <workItem from="1669393564462" duration="764000" />
+      <workItem from="1669393564462" duration="1920000" />
+      <workItem from="1669413776279" duration="791000" />
+      <workItem from="1669449308765" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE: Added favicon.ico">
       <created>1666724025547</created>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669394155371</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added transcribe bp">
+      <created>1669394648565</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669394648565</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +252,8 @@
     <MESSAGE value="Updated info files" />
     <MESSAGE value="Updated base title" />
     <MESSAGE value="Added transcribe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added transcribe" />
+    <MESSAGE value="Added transcribe bp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added transcribe bp" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_api$flask_dev.coverage" NAME="flask-dev Coverage Results" MODIFIED="1668198148048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

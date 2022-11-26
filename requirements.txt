@@ -37,6 +37,4 @@ transformers==4.24.0
 typing_extensions==4.4.0
 urllib3==1.26.13
 Werkzeug==2.2.2
-whisper@ git+https://github.com/openai/whisper.git@eff383b27b783e280c089475852ba83f20f64998
-whisper~=1.0
-setuptools~=65.5.1
+whisper @ git+https://github.com/openai/whisper.git@eff383b27b783e280c089475852ba83f20f64998

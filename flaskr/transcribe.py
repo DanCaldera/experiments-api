@@ -12,4 +12,4 @@ def transcribe():
     youtube_vid = pytube.YouTube(url)
     youtube_vid.streams.get_audio_only().download(filename='audio.mp4')
     result = model.transcribe('audio.mp4')
-    return result['text']
+    return result
